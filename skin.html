@@ -1,0 +1,1150 @@
+<!doctype html>
+<!--
+  JB SKIN 101 V0.9.9
+  JB FACTORY https://www.jbfactory.net/
+-->
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>[##_page_title_##]</title>
+    <link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./images/normalize-8.0.0.min.css">
+    <link rel="stylesheet" href="./images/jquery.nivo.slider.css">
+    <link rel="stylesheet" href="./images/jquery.nivo.slider.default.css">
+    <link rel="stylesheet" href="./style.css?version=0.9.0">
+    <script>
+      var jbSliderImage = new Array();
+      var jbSliderLink = new Array();
+      var jbSliderCaption = new Array();
+      // Skin Options - Start
+        var jbShowSlider = 1;     // 0 -> Yes, 1 -> No
+          jbSliderImage[0] = './images/jb-slider-01.jpg';
+          jbSliderLink[0] = '#';
+          jbSliderCaption[0] = 'Slider Caption 1';
+          jbSliderImage[1] = './images/jb-slider-02.jpg';
+          jbSliderLink[1] = '#';
+          jbSliderCaption[1] = 'Slider Caption 2';
+          jbSliderImage[2] = './images/jb-slider-03.jpg';
+          jbSliderLink[2] = '#';
+          jbSliderCaption[2] = 'Slider Caption 3';
+        var jbAdSenseNativeContentCode = '<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-xxxx" data-ad-slot="xxxx"></ins>';
+				var jbShowAdSenseCT2 = '1';  // 0 -> Yes, 1 -> No
+				var jbAdSenseClient = 'ca-pub-xxx';
+				var jbAdSenseCT2SlotLeft = 'xxx';
+				var jbAdSenseCT2SlotRight = 'xxx';
+      // Skin Options - End
+    </script>
+    <!--[if lt IE 9]>
+      <script src="./images/html5shiv-3.7.3.min.js"></script>
+      <script src="./images/placeholders-4.0.1.min.js"></script>
+      <script>
+        var head = document.getElementsByTagName('head')[0], style = document.createElement('style');
+        style.type = 'text/css';
+        style.styleSheet.cssText = ':before,:after{content:none !important';
+        head.appendChild(style);
+        setTimeout(function(){
+            head.removeChild(style);
+        }, 0);
+      </script>
+    <![endif]-->
+    <!--[if gte IE 9]>
+      <style>
+        figure.imageblock, #tt-body-page figure.imageblock { display: block; }
+      </style>
+    <![endif]-->
+    <style>
+      @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        figure.imageblock, #tt-body-page figure.imageblock { display: block; }
+      }
+    </style>
+  </head>
+  <body id="[##_body_id_##]"><s_t3>
+
+<div class="jb-page jb-youtube-auto jb-typography-0 jb-post-title-show-line jb-another-category-0">
+
+<div class="jb-background jb-background-header">
+  <div class="jb-container jb-container-header">
+    <div class="jb-row jb-row-header">
+      <div class="jb-line jb-line-header-top"></div>
+      <div class="jb-column jb-column-header">
+        <div class="jb-cell jb-cell-header">
+          <div class="jb-header-table">
+            <div class="jb-header-table-row">
+              <div class="jb-header-table-cell jb-header-table-cell-site-title">
+                <div class="jb-header-mobile-table">
+                  <div class="jb-header-mobile-table-row">
+                    <div class="jb-header-mobile-table-cell jb-header-mobile-table-cell-site-title">
+                      <header>
+                        <h1 class="jb-site-title"><a href="[##_blog_link_##]">[##_title_##]</a></h1>
+												<!-- <h1 class="jb-site-title-image"><a href="[##_blog_link_##]"><img src="./images/jb-logo-skin-101.png" alt=""></a></h1> -->
+                      </header>
+                    </div>
+                    <div class="jb-header-mobile-table-cell jb-header-mobile-table-cell-bars">
+                      <div class="jb-bars"><img src="./images/ic_menu_black_48dp_2x.png" alt=""></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="jb-header-table-cell jb-header-table-cell-navigation">
+                <nav>
+                  <h2 class="jb-section-title jb-section-title-main-menu">Main Menu</h2>
+                  <div class="jb-navigation jb-navigation-blog-menu">
+                    <div class="jb-navigation-blog-menu-title">
+                      <ul>
+                        <li>블로그 메뉴</li>
+                      </ul>
+                    </div>
+                    <div class="jb-navigation-blog-menu-list">
+                      [##_blog_menu_##]
+                    </div>
+                  </div>
+                  <div class="jb-navigation jb-navigation-sns jb-navigation-sns-icon">
+                    <div class="jb-navigation-sns-title">
+                      <ul>
+                        <li>SNS</li>
+                      </ul>
+                    </div>
+                    <div class="jb-navigation-sns-list">
+                      <ul>
+                        <li><a href="#" title="Facebook"><img src="./images/jb-sns-logo-facebook.png" alt=""></a></li>
+                        <li><a href="#" title="Twitter"><img src="./images/jb-sns-logo-twitter.png" alt=""></a></li>
+                        <li><a href="#" title="Google +"><img src="./images/jb-sns-logo-google-plus.png" alt=""></a></li>
+                        <!-- <li><a href="#" title="Kakao Story"><img src="./images/jb-sns-logo-kakaostory.png" alt=""></a></li> -->
+                        <!-- <li><a href="#" title="Instagram"><img src="./images/jb-sns-logo-instagram.png" alt=""></a></li> -->
+                        <!-- <li><a href="#" title="Pinterest"><img src="./images/jb-sns-logo-pinterest.png" alt=""></a></li> -->
+                        <!-- <li><a href="#" title="Linkedin"><img src="./images/jb-sns-logo-linkedin.png" alt=""></a></li> -->
+                        <li><a href="[##_rss_url_##]" title="RSS"><img src="./images/jb-sns-logo-rss.png" alt=""></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="jb-line jb-line-header-bottom"></div>
+    </div>
+  </div>
+</div>
+
+<div class="jb-background jb-background-main">
+  <div class="jb-container jb-container-main">
+    <div class="jb-row jb-row-main">
+      <div class="jb-column jb-column-content">
+        <s_list>
+          <div class="jb-cell jb-cell-content jb-cell-content-search-list">
+            <header>
+              <div class="jb-content-title jb-content-title-search-list">
+                <h2>[##_list_conform_##] ([##_list_count_##])</h2>
+              </div>
+            </header>
+          </div>
+        </s_list>
+        <s_local>
+          <div class="jb-cell jb-cell-content jb-cell-content-location">
+            <header>
+              <div class="jb-content-title jb-content-title-location">
+                <h2>위치로그</h2>
+              </div>
+            </header>
+            <div class="jb-content jb-content-location">
+              <s_local_spot_rep>
+                <p class="jb-location-spot" style="margin-left: [##_local_spot_depth_##]px">[##_local_spot_##]</p>
+              </s_local_spot_rep>
+              <s_local_info_rep>
+                <p class="jb-location-information" style="margin-left: [##_local_info_depth_##]px"><a href="[##_local_info_link_##]">[##_local_info_title_##]</a></p>
+              </s_local_info_rep>
+            </div>
+          </div>
+        </s_local>
+        <s_tag>
+          <div class="jb-cell jb-cell-content jb-cell-content-tag">
+            <header>
+              <div class="jb-content-title jb-content-title-tag">
+                <h2>태그</h2>
+              </div>
+            </header>
+            <div class="jb-content jb-content-tag">
+              <ul>
+                <s_tag_rep>
+                  <li><a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a></li>
+                </s_tag_rep>
+              </ul>
+            </div>
+          </div>
+        </s_tag>
+        <s_guest>
+          <div class="jb-cell jb-cell-content jb-cell-content-guestbook">
+            <header>
+              <div class="jb-content-title jb-content-title-guestbook">
+                <h2>방명록</h2>
+              </div>
+            </header>
+            <div class="jb-content jb-content-guestbook">
+              <s_guest_input_form>
+                <div class="jb-wrap-form-discuss jb-wrap-form-discuss-guestbook">
+                  <s_guest_member>
+                    <s_guest_form>
+                      <div class="jb-form-discuss jb-form-discuss-name jb-form-discuss-table">
+                        <div class="jb-form-discuss-table-row">
+                          <div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-icon">
+                            <div class="jb-form-discuss-icon jb-form-discuss-icon-name">
+                              <i class="fa fa-user fa-fw"></i>
+                            </div>
+                          </div>
+                          <div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-input">
+                            <input type="text" id="[##_guest_input_name_##]" name="[##_guest_input_name_##]" value="[##_guest_name_##]" placeholder="Name" class="jb-form-input-text">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="jb-form-discuss jb-form-discuss-homepage jb-form-discuss-table">
+                        <div class="jb-form-discuss-table-row">
+                          <div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-icon">
+                            <div class="jb-form-discuss-icon jb-form-discuss-icon-homepage">
+                              <i class="fa fa-home fa-fw"></i>
+                            </div>
+                          </div>
+                          <div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-input">
+                            <input type="text" id="[##_guest_input_homepage_##]" name="[##_guest_input_homepage_##]" value="[##_guest_homepage_##]" class="jb-form-input-text">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="jb-form-discuss jb-form-discuss-password jb-form-discuss-table">
+                        <div class="jb-form-discuss-table-row">
+                          <div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-icon">
+                            <div class="jb-form-discuss-icon jb-form-discuss-icon-password">
+                              <i class="fa fa-key fa-fw"></i>
+                            </div>
+                          </div>
+                          <div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-input">
+                            <input type="password" id="[##_guest_input_password_##]" name="[##_guest_input_password_##]" value="[##_guest_password_##]" placeholder="Password" class="jb-form-input-text">
+                          </div>
+                        </div>
+                      </div>
+                    </s_guest_form>
+                    <div class="jb-form-discuss jb-form-discuss-secret">
+                      <label for="[##_guest_input_is_secret_##]" class="jb-form-label"><input type="checkbox" id="[##_guest_input_is_secret_##]" name="[##_guest_input_is_secret_##]" value="1" class="jb-form-input-checkbox"> 비밀 글</label>
+                    </div>
+                  </s_guest_member>
+                  <div class="jb-form-discuss jb-form-discuss-content">
+                    <textarea name="[##_guest_textarea_body_##]" rows="5" class="jb-form-textarea"></textarea>
+                  </div>
+                  <div class="jb-form-discuss jb-form-discuss-submit">
+                    <button onclick="[##_guest_onclick_submit_##]" class="jb-form-button"><span>등록</span></button>
+                  </div>
+                </div>
+              </s_guest_input_form>
+              <s_guest_container>
+                <div class="jb-wrap-discuss-list jb-wrap-discuss-list-guestbook">
+                  <ul class="jb-discuss-list-level-1">
+                    <s_guest_rep>
+                      <li id="[##_guest_rep_id_##]" class="[##_guest_rep_class_##]">
+                        <table class="jb-discuss-table jb-discuss-table-guestbook">
+                          <tr class="jb-discuss-table-row jb-discuss-table-row-guestbook">
+                            <td class="jb-discuss-table-cell jb-discuss-table-cell-logo jb-discuss-table-cell-guestbook jb-discuss-table-cell-logo-guestbook">
+                              <div class="jb-discuss-information-logo"><img src="[##_guest_rep_logo_##]" alt=""></div>
+                            </td>
+                            <td class="jb-discuss-table-cell jb-discuss-table-cell-name jb-discuss-table-cell-guestbook jb-discuss-table-cell-name-guestbook">
+                              <div class="jb-discuss-information-name">[##_guest_rep_name_##]</div>
+                              <div class="jb-discuss-information-date">[##_guest_rep_date_##]</div>
+                            </td>
+                          </tr>
+                          <tr class="jb-discuss-table-row jb-discuss-table-row-guestbook">
+                            <td colspan="2" class="jb-discuss-table-cell jb-discuss-table-cell-desc jb-discuss-table-cell-guestbook jb-discuss-table-cell-desc-guestbook">
+                              <p class="jb-discuss-content">[##_guest_rep_desc_##]</p>
+                            </td>
+                          </tr>
+                          <tr class="jb-discuss-table-row jb-discuss-table-row-guestbook">
+                            <td colspan="2" class="jb-discuss-table-cell jb-discuss-table-cell-reaction jb-discuss-table-cell-guestbook jb-discuss-table-cell-reaction-guestbook">
+                              <div class="jb-discuss-reaction">
+                                <a href="#" onclick="[##_guest_rep_onclick_reply_##]" class="jb-discuss-reaction-reply">답글</a>
+                                <a href="#" onclick="[##_guest_rep_onclick_delete_##]" class="jb-discuss-reaction-edit">수정</a>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                        <s_guest_reply_container>
+                          <ul class="jb-discuss-list-level-2">
+                            <s_guest_reply_rep>
+                              <li id="[##_guest_rep_id_##]" class="[##_guest_rep_class_##]">
+                                <table class="jb-discuss-table jb-discuss-table-guestbook">
+                                  <tr class="jb-discuss-table-row jb-discuss-table-row-guestbook">
+                                    <td class="jb-discuss-table-cell jb-discuss-table-cell-logo jb-discuss-table-cell-guestbook jb-discuss-table-cell-logo-guestbook">
+                                      <div class="jb-discuss-information-logo"></div>
+                                    </td>
+                                    <td class="jb-discuss-table-cell jb-discuss-table-cell-name jb-discuss-table-cell-guestbook jb-discuss-table-cell-name-guestbook">
+                                      <div class="jb-discuss-information-name">[##_guest_rep_name_##]</div>
+                                      <div class="jb-discuss-information-date">[##_guest_rep_date_##]</div>
+                                    </td>
+                                  </tr>
+                                  <tr class="jb-discuss-table-row jb-discuss-table-row-guestbook">
+                                    <td colspan="2" class="jb-discuss-table-cell jb-discuss-table-cell-desc jb-discuss-table-cell-guestbook jb-discuss-table-cell-desc-guestbook">
+                                      <p class="jb-discuss-content">[##_guest_rep_desc_##]</p>
+                                    </td>
+                                  </tr>
+                                  <tr class="jb-discuss-table-row jb-discuss-table-row-guestbook">
+                                    <td colspan="2" class="jb-discuss-table-cell jb-discuss-table-cell-reaction jb-discuss-table-cell-guestbook jb-discuss-table-cell-reaction-guestbook">
+                                      <div class="jb-discuss-reaction">
+                                        <a href="#" onclick="[##_guest_rep_onclick_delete_##]" class="jb-discuss-reaction-edit">수정</a>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </li>
+                            </s_guest_reply_rep>
+                          </ul>
+                        </s_guest_reply_container>
+                      </li>
+                    </s_guest_rep>
+                  </ul>
+                </div>
+              </s_guest_container>
+            </div>
+          </div>
+        </s_guest>
+        <s_notice_rep>
+          <s_index_article_rep>
+            <div class="jb-cell jb-cell-content jb-cell-index jb-cell-index-notice">
+              <div class="jb-index-table jb-index-table-notice">
+                <div class="jb-index-table-row jb-index-table-row-notice">
+                  <div class="jb-index-table-cell jb-index-table-cell-thumbnail jb-index-table-cell-notice jb-index-table-cell-thumbnail-notice">
+                    <a href="[##_notice_rep_link_##]">
+                      <div class="jb-index-thumbnail jb-index-thumbnail-no-image jb-index-thumbnail-notice jb-index-thumbnail-no-image-notice">
+                        <img src="./images/jb-notice-400x300.png" alt="">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="jb-index-table-cell jb-index-table-cell-information jb-index-table-cell-notice jb-index-table-cell-information-notice">
+                    <h3 class="jb-index-title jb-index-title-notice"><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h3>
+                    <p class="jb-index-information jb-index-information-notice">
+                      <span class="jb-index-information-date jb-index-information-date-notice">[##_notice_rep_date_##]</span>
+                      <span class="jb-index-information-category jb-index-information-category-notice"><a href="/notice">공지사항</a></span>
+                    </p>
+                    <p class="jb-index-summary jb-index-summary-notice"><a href="[##_notice_rep_link_##]">[##_notice_rep_summary_##]</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </s_index_article_rep>
+          <s_permalink_article_rep>
+            <div class="jb-cell jb-cell-content jb-cell-content-article jb-cell-content-notice">
+              <article>
+								<header>
+									<div class="jb-content-title jb-content-title-article jb-content-title-article-notice">
+										<h2><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h2>
+										<div class="jb-article-information jb-article-information-notice">
+											<ul>
+												<li><span class="jb-article-information-category jb-article-information-category-notice"><a href="/notice">공지사항</a></span></li>												
+												<!--<li><span class="jb-article-information-author jb-article-information-author-notice">[##_notice_rep_author_##]</span></li>-->
+												<li><span class="jb-article-information-date jb-article-information-date-notice">[##_notice_rep_date_##]</span></li>
+											</ul>
+										</div>
+									</div>
+								</header>
+								<section>
+  								<div class="jb-content jb-content-article jb-content-article-notice">
+	  								<div class="jb-article jb-article-notice">[##_notice_rep_desc_##]</div>
+		  						</div>
+							  </section>
+              </article>
+            </div>
+          </s_permalink_article_rep>
+        </s_notice_rep>
+        <s_article_protected>
+          <s_index_article_rep>
+            <div class="jb-cell jb-cell-content jb-cell-index jb-cell-index-protected">
+              <div class="jb-index-table jb-index-table-protected">
+                <div class="jb-index-table-row jb-index-table-row-protected">
+                  <div class="jb-index-table-cell jb-index-table-cell-thumbnail jb-index-table-cell-protected jb-index-table-cell-thumbnail-protected">
+                    <a href="[##_article_rep_link_##]">
+                      <div class="jb-index-thumbnail jb-index-thumbnail-no-image jb-index-thumbnail-protected jb-index-thumbnail-no-image-protected">
+                        <img src="./images/jb-protected-400x300.png" alt="">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="jb-index-table-cell jb-index-table-cell-information jb-index-table-cell-protected jb-index-table-cell-information-protected">
+                    <h3 class="jb-index-title jb-index-title-protected"><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h3>
+                    <p class="jb-index-information jb-index-information-protected">
+                      <span class="jb-index-information-date jb-index-information-date-protected">[##_article_rep_date_##]</span>
+                      <span class="jb-index-information-category jb-index-information-category-protected"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </s_index_article_rep>
+          <s_permalink_article_rep>
+            <div class="jb-cell jb-cell-content jb-cell-content-article jb-cell-content-article-protected">
+              <article>
+								<header>
+									<div class="jb-content-title jb-content-title-article jb-content-title-article-protected">
+										<h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+										<div class="jb-article-information jb-article-information-protected">
+											<ul>
+												<li><span class="jb-article-information-category jb-article-information-category-protected"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></span></li>
+												<!--<li><span class="jb-article-information-author jb-article-information-author-protected">[##_article_rep_author_##]</span></li>-->
+												<li><span class="jb-article-information-date jb-article-information-date-protected">[##_article_rep_date_##]</span></li>
+											</ul>
+										</div>
+									</div>
+								</header>
+                <div class="jb-content jb-content-article jb-content-article-protected">
+									<div class="jb-article jb-article-protected">
+                    <p>보호되어 있는 글입니다. 내용을 보시려면 비밀번호를 입력하세요.</p>
+                  </div>
+                  <div class="jb-form-article-protected-table">
+                    <div class="jb-form-article-protected-table-row">
+                      <div class="jb-form-article-protected-table-cell jb-form-article-protected-table-cell-input">
+                        <input type="password" maxlength="16" id="[##_article_password_##]" name="[##_article_password_##]" onkeydown="if (event.keyCode == 13)[##_article_dissolve_##]" class="jb-form-input-password">
+                      </div>
+                      <div class="jb-form-article-protected-table-cell jb-form-article-protected-table-cell-button">
+                        <button onclick="[##_article_dissolve_##]" class="jb-form-button"><i class="fa fa-key fa-fw"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </s_permalink_article_rep>
+        </s_article_protected>
+        <s_page_rep>
+          <s_index_article_rep>
+            <div class="jb-cell jb-cell-content jb-cell-index jb-cell-index-page">
+              <div class="jb-index-table jb-index-table-page">
+                <div class="jb-index-table-row jb-index-table-row-page">
+                  <div class="jb-index-table-cell jb-index-table-cell-thumbnail jb-index-table-cell-page jb-index-table-cell-thumbnail-page">
+                    <a href="[##_article_rep_link_##]">
+                      <div class="jb-index-thumbnail jb-index-thumbnail-no-image jb-index-thumbnail-page jb-index-thumbnail-no-image-page">
+                        <img src="./images/jb-notice-400x300.png" alt="">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="jb-index-table-cell jb-index-table-cell-information jb-index-table-cell-page jb-index-table-cell-information-page">
+                    <h3 class="jb-index-title jb-index-title-page"><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h3>
+                    <p class="jb-index-information jb-index-information-page">
+                      <span class="jb-index-information-date jb-index-information-date-page">[##_article_rep_date_##]</span>
+                    </p>
+                    <p class="jb-index-summary jb-index-summary-page"><a href="[##_article_rep_link_##]">[##_article_rep_summary_##]</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </s_index_article_rep>
+          <s_permalink_article_rep>
+            <div class="jb-cell jb-cell-content jb-cell-content-article jb-cell-content-page">
+              <article>
+								<header>
+									<div class="jb-content-title jb-content-title-article jb-content-title-article-page">
+										<h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+										<div class="jb-article-information jb-article-information-page">
+											<ul>
+												<li><span class="jb-article-information-author jb-article-information-author-page">[##_article_rep_author_##]</span></li>
+												<li><span class="jb-article-information-date jb-article-information-date-page">[##_article_rep_date_##]</span></li>
+											</ul>
+										</div>
+									</div>
+								</header>
+								<section>
+  								<div class="jb-content jb-content-article jb-content-article-page">
+	  								<div class="jb-article jb-article-page">[##_article_rep_desc_##]</div>
+		  						</div>
+							  </section>
+              </article>
+            </div>
+          </s_permalink_article_rep>
+        </s_page_rep>
+        <s_article_rep>
+          <s_index_article_rep>
+            <div class="jb-cell jb-cell-content jb-cell-index jb-cell-index-front">
+              <div class="jb-index-table jb-index-table-front">
+                <div class="jb-index-table-row jb-index-table-row-front">
+                  <div class="jb-index-table-cell jb-index-table-cell-thumbnail jb-index-table-cell-front jb-index-table-cell-thumbnail-front">
+                    <a href="[##_article_rep_link_##]">
+                      <s_article_rep_thumbnail>
+                        <div class="jb-index-thumbnail jb-index-thumbnail-front">
+                          <img src="//i1.daumcdn.net/thumb/C400x300/?fname=[##_article_rep_thumbnail_raw_url_##]" alt="">
+                        </div>
+                      </s_article_rep_thumbnail>
+                    </a>
+                  </div>
+                  <div class="jb-index-table-cell jb-index-table-cell-information jb-index-table-cell-front jb-index-table-cell-information-front">
+                    <h3 class="jb-index-title jb-index-title-front"><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h3>
+                    <p class="jb-index-information jb-index-information-front">
+											<span class="jb-index-information-category jb-index-information-category-front"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></span>
+                      <span class="jb-index-information-author jb-index-information-author-front">[##_article_rep_author_##]</span>
+											<span class="jb-index-information-date jb-index-information-date-front">[##_article_rep_date_##]</span>
+                    </p>
+                    <p class="jb-index-summary jb-index-summary-front"><a href="[##_article_rep_link_##]">[##_article_rep_summary_##]</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </s_index_article_rep>
+          <s_permalink_article_rep>
+            <div class="jb-cell jb-cell-content jb-cell-content-article">
+              <article>
+								<header>
+									<div class="jb-content-title jb-content-title-article">
+										<h2><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h2>
+										<div class="jb-article-information">
+											<ul>
+												<li><span class="jb-article-information-category"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a></span></li>												
+												<!--<li><span class="jb-article-information-author">[##_article_rep_author_##]</span></li>-->
+												<li><span class="jb-article-information-date">[##_article_rep_date_##]</span></li>
+												<s_ad_div>
+													<li class="jb-admin">
+														<div class="jb-admin-button"><i class="fa fa-cog"></i></div>
+														<div class="jb-admin-menu">
+															<ul>
+																<li><a href="[##_s_ad_m_link_##]">수정</a></li>
+																<li><a href="#" onclick="[##_s_ad_m_onclick_##]">수정(새창)</a></li>
+																<li>([##_s_ad_s1_label_##]) <i class="fa fa-long-arrow-right"></i> <a href="#" onclick="[##_s_ad_s2_onclick_##]">[##_s_ad_s2_label_##]</a></li>
+																<li><a href="#" onclick="[##_s_ad_t_onclick_##]">트랙백</a></li>
+																<li><a href="#" onclick="[##_s_ad_d_onclick_##]">삭제</a></li>
+															</ul>
+														</div>
+													</li>
+												</s_ad_div>
+											</ul>
+										</div>
+									</div>
+								</header>
+								<script>
+									if ( jbShowAdSenseCT2 == 0 ) {
+										document.write( '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><\/script><div class="jb-adsense-table"><div class="jb-adsense-table-row"><div class="jb-adsense-table-cell jb-adsense-table-cell-left"><ins class="adsbygoogle" data-ad-client="' + jbAdSenseClient + '" data-ad-slot="' + jbAdSenseCT2SlotLeft + '"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script></div><div class="jb-adsense-table-cell jb-adsense-table-cell-right"><ins class="adsbygoogle" data-ad-client="' + jbAdSenseClient + '" data-ad-slot="' + jbAdSenseCT2SlotRight + '"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});<\/script></div></div></div>' );
+									}
+								</script>
+								<div class="jb-adsense jb-adsense-ct">
+									<s_sidebar>
+										<s_sidebar_element>
+											<!-- AdSense CT -->
+										</s_sidebar_element>
+									</s_sidebar>
+								</div>
+								<div class="jb-adsense jb-adsense-ctr">
+									<s_sidebar>
+										<s_sidebar_element>
+											<!-- AdSense CTR -->
+										</s_sidebar_element>
+									</s_sidebar>
+								</div>
+								<section>
+  								<div class="jb-content jb-content-article">
+	  								<div class="jb-article">[##_article_rep_desc_##]</div>
+		  						</div>
+							  </section>
+								<s_tag_label>
+									<p class="jb-article-tag"><span class="jb-article-tag-list">[##_tag_label_rep_##]</span></p>
+								</s_tag_label>
+								<div class="jb-adsense jb-adsense-cb">
+									<s_sidebar>
+										<s_sidebar_element>
+											<!-- AdSense CB -->
+										</s_sidebar_element>
+									</s_sidebar>
+								</div>
+								<s_sidebar>
+									<s_sidebar_element><!-- SNS Share -->
+										<div class="jb-wrap-sns-share">
+											<p>이 글을 공유하기</p>
+											<div class="jb-sns-share jb-sns-share-facebook">
+												<a href="#" onclick="javascript:window.open( 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent( document.URL ) + '&t=' + encodeURIComponent( document.title ), 'jb-share-window-facebook', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, width=600, height=600' ); return false;" target="_blank"><div class="jb-sns-share-logo"><img src="./images/jb-sns-logo-facebook.png" alt=""></div><div class="jb-sns-share-label">Facebook</div></a>
+											</div>
+											<div class="jb-sns-share jb-sns-share-twitter">
+												<a href="#" onclick="javascript:window.open( 'https://twitter.com/intent/tweet?text=' + encodeURIComponent( document.title ) + '%20(' + encodeURIComponent( document.URL ) + ')', 'jb-share-window-google-plus', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, width=600, height=600' ); return false;" target="_blank"><div class="jb-sns-share-logo"><img src="./images/jb-sns-logo-twitter.png" alt=""></div><div class="jb-sns-share-label">Twitter</div></a>
+											</div>
+											<div class="jb-sns-share jb-sns-share-google-plus">
+												<a href="#" onclick="javascript:window.open( 'https://plus.google.com/share?url=' + encodeURIComponent( document.URL ), 'jb-share-window-google-plus', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, width=600, height=600' ); return false;" target="_blank"><div class="jb-sns-share-logo"><img src="./images/jb-sns-logo-google-plus.png" alt=""></div><div class="jb-sns-share-label">Google +</div></a>
+											</div>
+											<div class="jb-sns-share jb-sns-share-kakaostory">
+												<a href="#" onclick="javascript:window.open( 'https://story.kakao.com/share?url=' + encodeURIComponent( document.URL ), 'jb-share-window-kakostory', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, width=600, height=600' ); return false;" target="_blank"><div class="jb-sns-share-logo"><img src="./images/jb-sns-logo-kakaostory.png" alt=""></div><div class="jb-sns-share-label">Kakao</div></a>
+											</div>
+											<div class="jb-sns-share jb-sns-share-naver">
+												<a href="#" onclick="javascript:window.open( 'http://share.naver.com/web/shareView.nhn?url=' + encodeURIComponent( document.URL ) + '&title=' + encodeURIComponent( document.title ), 'jb-share-window-naver', 'menubar=no, toolbar=no, resizable=yes, scrollbars=yes, width=600, height=600' ); return false;" target="_blank"><div class="jb-sns-share-logo"><img src="./images/jb-sns-logo-naver.png" alt=""></div><div class="jb-sns-share-label">Naver</div></a>
+											</div>
+										</div>
+									</s_sidebar_element>
+								</s_sidebar>
+								<s_article_related>
+									<div class="jb-related">
+										<div class="jb-related-header-table">
+											<div class="jb-related-header-table-row">
+												<div class="jb-related-header-table-cell jb-related-header-table-cell-title">
+													<h2>'[##_article_rep_category_##]' 관련 글</h2>
+												</div>
+												<div class="jb-related-header-table-cell jb-related-header-table-cell-more">
+												</div>
+											</div>
+										</div>
+										<s_article_related_rep>
+											<div class="jb-cell jb-cell-content jb-cell-index jb-cell-index-related [##_article_related_rep_type_##]">
+												<div class="jb-index-table jb-index-table-related">
+													<div class="jb-index-table-row jb-index-table-row-related">
+														<div class="jb-index-table-cell jb-index-table-cell-thumbnail jb-index-table-cell-related jb-index-table-cell-thumbnail-related">
+															<a href="[##_article_related_rep_link_##]">
+																<s_article_related_rep_thumbnail>
+																	<div class="jb-index-thumbnail jb-index-thumbnail-related">
+																		<img src="//i1.daumcdn.net/thumb/C400x300/?fname=[##_article_related_rep_thumbnail_link_##]" alt="">
+																	</div>
+																</s_article_related_rep_thumbnail>
+															</a>
+														</div>
+														<div class="jb-index-table-cell jb-index-table-cell-information jb-index-table-cell-related jb-index-table-cell-information-related">
+															<h3 class="jb-index-title jb-index-title-related"><a href="[##_article_related_rep_link_##]">[##_article_related_rep_title_##]</a></h3>
+															<p class="jb-index-information jb-index-information-related">
+																<span class="jb-index-information-date jb-index-information-date-related">[##_article_related_rep_date_##]</span>
+															</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</s_article_related_rep>
+										<div class="jb-related-more"><a href="[##_article_rep_category_link_##]">'[##_article_rep_category_##]' 관련 글 더보기</a></div>
+									</div>
+								</s_article_related>
+								<p class="jb-discuss-count">
+									<span class="jb-discuss-count-reply"><a href="#rp" onclick="[##_article_rep_rp_link_##]"><span class="jb-discuss-count-label">댓글</span><s_rp_count><span class="jb-discuss-count-number">([##_article_rep_rp_cnt_##])</span></s_rp_count></a></span>
+								</p>
+								<s_rp>
+									<s_rp_container>
+										<div class="jb-wrap-discuss-list jb-wrap-discuss-list-reply">
+											<ul class="jb-discuss-list-level-1">
+												<s_rp_rep>
+													<li id="[##_rp_rep_id_##]" class="[##_rp_rep_class_##]">
+														<table class="jb-discuss-table jb-discuss-table-reply">
+                              <tr class="jb-discuss-table-row jb-discuss-table-row-reply">
+                                <td class="jb-discuss-table-cell jb-discuss-table-cell-logo jb-discuss-table-cell-reply jb-discuss-table-cell-logo-reply">
+                                  <div class="jb-discuss-information-logo"><img src="[##_rp_rep_logo_##]" alt=""></div>
+                                </td>
+                                <td class="jb-discuss-table-cell jb-discuss-table-cell-name jb-discuss-table-cell-reply jb-discuss-table-cell-name-reply">
+                                  <div class="jb-discuss-information-name">[##_rp_rep_name_##]</div>
+                                  <div class="jb-discuss-information-date">[##_rp_rep_date_##]</div>
+                                </td>
+                              </tr>
+                              <tr class="jb-discuss-table-row jb-discuss-table-row-reply">
+                                <td colspan="2" class="jb-discuss-table-cell jb-discuss-table-cell-desc jb-discuss-table-cell-reply jb-discuss-table-cell-desc-reply">
+                                  <p class="jb-discuss-content">[##_rp_rep_desc_##]</p>
+                                </td>
+                              </tr>
+                              <tr class="jb-discuss-table-row jb-discuss-table-row-reply">
+                                <td colspan="2" class="jb-discuss-table-cell jb-discuss-table-cell-reaction jb-discuss-table-cell-reply jb-discuss-table-cell-reaction-reply">
+                                  <div class="jb-discuss-reaction">
+                                    <a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="jb-discuss-reaction-reply">답글</a>
+                                    <a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="jb-discuss-reaction-edit">수정</a>
+                                  </div>
+                                </td>
+                              </tr>
+														</table>
+														<s_rp2_container>
+															<ul class="jb-discuss-list-level-2">
+																<s_rp2_rep>
+																	<li id="[##_rp_rep_id_##]" class="[##_rp_rep_class_##]">
+                                    <table class="jb-discuss-table jb-discuss-table-reply">
+                                      <tr class="jb-discuss-table-row jb-discuss-table-row-reply">
+                                        <td class="jb-discuss-table-cell jb-discuss-table-cell-logo jb-discuss-table-cell-reply jb-discuss-table-cell-logo-reply">
+                                          <div class="jb-discuss-information-logo"><img src="[##_rp_rep_logo_##]" alt=""></div>
+                                        </td>
+                                        <td class="jb-discuss-table-cell jb-discuss-table-cell-name jb-discuss-table-cell-reply jb-discuss-table-cell-name-reply">
+                                          <div class="jb-discuss-information-name">[##_rp_rep_name_##]</div>
+                                          <div class="jb-discuss-information-date">[##_rp_rep_date_##]</div>
+                                        </td>
+                                      </tr>
+                                      <tr class="jb-discuss-table-row jb-discuss-table-row-reply">
+                                        <td colspan="2" class="jb-discuss-table-cell jb-discuss-table-cell-desc jb-discuss-table-cell-reply jb-discuss-table-cell-desc-reply">
+                                          <p class="jb-discuss-content">[##_rp_rep_desc_##]</p>
+                                        </td>
+                                      </tr>
+                                      <tr class="jb-discuss-table-row jb-discuss-table-row-reply">
+                                        <td colspan="2" class="jb-discuss-table-cell jb-discuss-table-cell-reaction jb-discuss-table-cell-reply jb-discuss-table-cell-reaction-reply">
+                                          <div class="jb-discuss-reaction">
+                                            <a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="jb-discuss-reaction-edit">수정</a>
+                                          </div>
+                                        </td>
+                                      </tr>
+                                    </table>
+																	</li>
+																</s_rp2_rep>
+															</ul>
+														</s_rp2_container>
+													</li>
+												</s_rp_rep>
+											</ul>
+										</div>
+									</s_rp_container>
+									<s_rp_input_form>
+										<div class="jb-wrap-form-discuss jb-wrap-form-discuss-reply">
+											<s_rp_member>
+												<s_rp_guest>
+													<div class="jb-form-discuss jb-form-discuss-name jb-form-discuss-table">
+														<div class="jb-form-discuss-table-row">
+															<div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-icon">
+																<div class="jb-form-discuss-icon jb-form-discuss-icon-name">
+																	<i class="fa fa-user fa-fw"></i>
+																</div>
+															</div>
+															<div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-input">
+																<input type="text" id="[##_rp_input_name_##]_[##_article_rep_id_##]" name="[##_rp_input_name_##]" value="[##_guest_name_##]" placeholder="Name" class="jb-form-input-text">
+															</div>
+														</div>
+													</div>
+													<div class="jb-form-discuss jb-form-discuss-homepage jb-form-discuss-table">
+														<div class="jb-form-discuss-table-row">
+															<div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-icon">
+																<div class="jb-form-discuss-icon jb-form-discuss-icon-homepage">
+																	<i class="fa fa-home fa-fw"></i>
+																</div>
+															</div>
+															<div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-input">
+																<input type="text" id="[##_rp_input_homepage_##]_[##_article_rep_id_##]" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]" class="jb-form-input-text">
+															</div>
+														</div>
+													</div>
+													<div class="jb-form-discuss jb-form-discuss-password jb-form-discuss-table">
+														<div class="jb-form-discuss-table-row">
+															<div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-icon">
+																<div class="jb-form-discuss-icon jb-form-discuss-icon-password">
+																	<i class="fa fa-key fa-fw"></i>
+																</div>
+															</div>
+															<div class="jb-form-discuss-table-cell jb-form-discuss-table-cell-input">
+																<input type="password" id="[##_rp_input_password_##]_[##_article_rep_id_##]" name="[##_rp_input_password_##]" value="[##_rp_admin_check_##]" placeholder="Password" class="jb-form-input-text">
+															</div>
+														</div>
+													</div>
+												</s_rp_guest>
+												<div class="jb-form-discuss jb-form-discuss-secret">
+													<label for="[##_rp_input_is_secret_##]_[##_article_rep_id_##]" class="jb-form-label"><input type="checkbox" id="[##_rp_input_is_secret_##]_[##_article_rep_id_##]" name="[##_rp_input_is_secret_##]" value="1" class="jb-form-input-checkbox"> 비밀 글</label>
+												</div>
+											</s_rp_member>
+											<div class="jb-form-discuss jb-form-discuss-content">
+												<textarea name="[##_rp_input_comment_##]" rows="5" class="jb-form-textarea"></textarea>
+											</div>
+											<div class="jb-form-discuss jb-form-discuss-submit">
+												<button onclick="[##_rp_onclick_submit_##]" class="jb-form-button">등록</button>
+											</div>
+										</div>
+									</s_rp_input_form>
+								</s_rp>
+              </article>
+            </div>
+          </s_permalink_article_rep>
+        </s_article_rep>
+        <s_paging>
+          <div class="jb-cell jb-cell-pagination">
+						<div class="jb-pagination">
+							<ul>
+								<li><a [##_prev_page_##]><i class="fa fa-caret-left"></i></a></li>
+								<s_paging_rep>
+									<li><a [##_paging_rep_link_##]>[##_paging_rep_link_num_##]</a></li>
+								</s_paging_rep>
+								<li><a [##_next_page_##]><i class="fa fa-caret-right"></i></a></li>
+							</ul>
+						</div>
+          </div>
+        </s_paging>
+      </div>
+      <div class="jb-column jb-column-sidebar">
+        <aside>
+					<h2 class="jb-section-title jb-section-title-sidebar">Sidebar</h2>
+          <s_sidebar>
+            <s_sidebar_element><!-- Blog Information -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-blog-information">
+                <div class="jb-sidebar-title jb-sidebar-title-blog-information">
+                  <h3>블로그 정보</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-blog-information">
+                  <p class="jb-blog-information jb-blog-information-image"><img src="[##_image_##]" alt=""></p>
+                  <p class="jb-blog-information jb-blog-information-blogger">[##_blogger_##]</p>
+                  <p class="jb-blog-information jb-blog-information-description">[##_desc_##]</p>
+                </div>
+              </div>
+            </s_sidebar_element>
+            <s_sidebar_element><!-- Notices -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-notices">
+                <div class="jb-sidebar-title jb-sidebar-title-notices">
+                  <h3>공지사항</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-notices jb-sidebar-content-list">
+                  <s_rct_notice>
+                    <ul>
+                      <s_rct_notice_rep>
+                        <li><span class="jb-sidebar-list"><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></span></li>
+                      </s_rct_notice_rep>
+                    </ul>
+                  </s_rct_notice>
+                </div>
+              </div>
+            </s_sidebar_element>
+            <s_sidebar_element><!-- Search -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-search">
+                <div class="jb-sidebar-title jb-sidebar-title-search">
+                  <h3>검색</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-search">
+                  <s_search>
+                    <div class="jb-form-search-table">
+                      <div class="jb-form-search-table-row">
+                        <div class="jb-form-search-table-cell jb-form-search-table-cell-input">
+                          <input type="text" name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }" class="jb-form-input-text">
+                        </div>
+                        <div class="jb-form-search-table-cell jb-form-search-table-cell-button">
+                          <button type="button" onclick="[##_search_onclick_submit_##]" class="jb-form-button"><i class="fa fa-search fa-fw"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                  </s_search>
+                </div>
+              </div>
+            </s_sidebar_element>
+            <s_sidebar_element><!-- Category -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-category">
+                <div class="jb-sidebar-title jb-sidebar-title-category">
+                  <h3>카테고리</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-category">
+                  [##_category_list_##]
+                </div>
+              </div>
+            </s_sidebar_element>
+            <s_sidebar_element><!-- Tags -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-tags">
+                <div class="jb-sidebar-title jb-sidebar-title-tags">
+                  <h3>태그</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-tags">
+                  <ul>
+                    <s_random_tags>
+                      <li><a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a></li>
+                    </s_random_tags>
+                  </ul>
+                </div>
+              </div>
+            </s_sidebar_element>
+            <s_sidebar_element><!-- Calendar -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-calendar">
+                <div class="jb-sidebar-title jb-sidebar-title-calendar">
+                  <h3>달력</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-calendar">
+                  [##_calendar_##]
+                </div>
+              </div>
+            </s_sidebar_element>
+            <s_sidebar_element> <!-- Archives -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-archives">
+                <div class="jb-sidebar-title jb-sidebar-title-archives">
+                  <h3>보관함</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-archives jb-sidebar-content-list">
+                  <ul>
+                    <s_archive_rep>
+                      <li><span class="jb-sidebar-list"><a href="[##_archive_rep_link_##]"><span class="jb-archives-date">[##_archive_rep_date_##]</span><span class="jb-archives-count">([##_archive_rep_count_##])</span></a></span></li>
+                    </s_archive_rep>
+                  </ul>
+                </div>
+              </div>
+            </s_sidebar_element>
+            <s_sidebar_element><!-- Links -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-links">
+                <div class="jb-sidebar-title jb-sidebar-title-links">
+                  <h3>링크</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-links jb-sidebar-content-list">
+                  <ul>
+                    <s_link_rep>
+                      <li><span class="jb-sidebar-list"><a href="[##_link_url_##]">[##_link_site_##]</a></span></li>
+                    </s_link_rep>
+                  </ul>
+                </div>
+              </div>
+            </s_sidebar_element>
+            <s_sidebar_element><!-- Statistics -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-statistics">
+                <div class="jb-sidebar-title jb-sidebar-title-statistics">
+                  <h3>통계</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-statistics jb-sidebar-content-list">
+                  <ul>
+                    <li><span class="jb-sidebar-list"><span class="jb-statistics-label">Total : </span><span class="jb-statistics-count">[##_count_total_##]</span></span></li>
+                    <li><span class="jb-sidebar-list"><span class="jb-statistics-label">Today : </span><span class="jb-statistics-count">[##_count_today_##]</span></span></li>
+                    <li><span class="jb-sidebar-list"><span class="jb-statistics-label">Yesterday : </span><span class="jb-statistics-count">[##_count_yesterday_##]</span></span></li>
+                  </ul>
+                </div>
+              </div>
+            </s_sidebar_element>
+          </s_sidebar>
+        </aside>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jb-background jb-background-footer">
+  <div class="jb-container jb-container-footer">
+    <div class="jb-row jb-row-footer">
+      <div class="jb-column jb-column-footer jb-column-footer-1">
+        <aside>
+					<h2 class="jb-section-title jb-section-title-footer-1">Footer 1</h2>
+          <s_sidebar>
+            <s_sidebar_element><!-- Recent Posts -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-recent-posts">
+                <div class="jb-sidebar-title jb-sidebar-title-recent-posts">
+                  <h3>최근 글</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-recent-posts jb-sidebar-content-list">
+                  <ul>
+                    <s_rctps_rep>
+                      <li><span class="jb-sidebar-list"><a href="[##_rctps_rep_link_##]"><span class="jb-recent-posts-title">[##_rctps_rep_title_##]</span><span class="jb-recent-posts-reply-count">[##_rctps_rep_rp_cnt_##]</span><span class="jb-recent-posts-author">[##_rctps_rep_author_##]</span></a></span></li>
+                    </s_rctps_rep>
+                  </ul>
+                </div>
+              </div>
+            </s_sidebar_element>
+            <s_sidebar_element><!-- Popular Posts -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-recent-posts">
+                <div class="jb-sidebar-title jb-sidebar-title-recent-posts">
+                  <h3>인기 글</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-recent-posts jb-sidebar-content-list">
+                  <ul>
+                    <s_rctps_popular_rep>
+                      <li><span class="jb-sidebar-list"><a href="[##_rctps_rep_link_##]"><span class="jb-recent-posts-title">[##_rctps_rep_title_##]</span><span class="jb-recent-posts-reply-count">[##_rctps_rep_rp_cnt_##]</span><span class="jb-recent-posts-author">[##_rctps_rep_author_##]</span></a></span></li>
+                    </s_rctps_popular_rep>
+                  </ul>
+                </div>
+              </div>
+            </s_sidebar_element>
+            <s_sidebar_element><!-- Recommended Posts -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-recommended-posts">
+                <div class="jb-sidebar-title jb-sidebar-title-recommended-posts">
+                  <h3>추천 글</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-recommended-posts jb-sidebar-content-list">
+                  <ul>
+                    <li><span class="jb-sidebar-list"><a href="#"><span class="jb-recommended-posts-title">추천 글 제목</span></a></span></li>
+                    <li><span class="jb-sidebar-list"><a href="#"><span class="jb-recommended-posts-title">추천 글 제목</span></a></span></li>
+                    <li><span class="jb-sidebar-list"><a href="#"><span class="jb-recommended-posts-title">추천 글 제목</span></a></span></li>
+                    <li><span class="jb-sidebar-list"><a href="#"><span class="jb-recommended-posts-title">추천 글 제목</span></a></span></li>
+                    <li><span class="jb-sidebar-list"><a href="#"><span class="jb-recommended-posts-title">추천 글 제목</span></a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </s_sidebar_element>
+          </s_sidebar>
+        </aside>
+      </div>
+      <div class="jb-column jb-column-footer jb-column-footer-2">
+        <aside>
+					<h2 class="jb-section-title jb-section-title-footer-2">Footer 2</h2>
+          <s_sidebar>
+            <s_sidebar_element><!-- Recent Replies -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-recent-replies">
+                <div class="jb-sidebar-title jb-sidebar-title-recent-replies">
+                  <h3>최근 댓글</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-recent-replies jb-sidebar-content-list">
+                  <ul>
+                    <s_rctrp_rep>
+                      <li><span class="jb-sidebar-list"><a href="[##_rctrp_rep_link_##]"><span class="jb-recent-replies-title">[##_rctrp_rep_desc_##]</span><span class="jb-recent-replies-name">[##_rctrp_rep_name_##]</span><span class="jb-recent-replies-time">[##_rctrp_rep_time_##]</span></a></span></li>
+                    </s_rctrp_rep>
+                  </ul>
+                </div>
+              </div>
+            </s_sidebar_element>
+          </s_sidebar>
+        </aside>
+      </div>
+      <div class="jb-column jb-column-footer jb-column-footer-3">
+        <aside>
+					<h2 class="jb-section-title jb-section-title-footer-3">Footer 3</h2>
+          <s_sidebar>
+            <s_sidebar_element><!-- Admin Menu -->
+              <div class="jb-cell jb-cell-sidebar jb-cell-sidebar-admin">
+                <div class="jb-sidebar-title jb-sidebar-title-admin">
+                  <h3>관리</h3>
+                </div>
+                <div class="jb-sidebar-content jb-sidebar-content-admin jb-sidebar-content-list">
+                  <ul>
+                    <li><span class="jb-sidebar-list"><a href="[##_owner_url_##]">관리자</a></span></li>
+                    <li><span class="jb-sidebar-list"><a href="[##_owner_url_##]/entry/post">글쓰기</a></span></li>
+                  </ul>
+                </div>
+              </div>
+            </s_sidebar_element>
+          </s_sidebar>
+        </aside>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="jb-background jb-background-foot">
+  <div class="jb-container jb-container-foot">
+    <div class="jb-row jb-row-foot">
+      <div class="jb-line jb-line-foot-top"></div>
+      <div class="jb-column jb-column-foot jb-column-foot-1">
+        <div class="jb-cell jb-cell-foot jb-cell-foot-1">
+          <div class="jb-copyright">
+            <h6>Copyright © [##_title_##] All Rights Reserved</h6>
+          </div>
+        </div>
+      </div>
+      <div class="jb-column jb-column-foot jb-column-foot-2">
+        <div class="jb-cell jb-cell-foot jb-cell-foot-2">
+          <div class="jb-designed">
+            <h6>Designed by <a href="https://www.jbfactory.net" target="_blank">JB FACTORY</a></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div><!-- .jb-page -->
+
+<a href="#" class="jb-top"><i class="fa fa-arrow-up"></i></a>
+
+<script src="./images/jquery-1.12.4.min.js"></script>
+<script src="./images/jquery.nivo.slider.min.js"></script>
+<script>
+  jQuery.noConflict();
+  jQuery( document ).ready( function( $ ) {
+    // Variables
+      var jbCurrentUrl = window.location.pathname;
+    // Menu
+      $( '.jb-navigation-category-list > ul > li > ul > li:has( ul ) > a' ).append( '<i class="fa fa-caret-down"></i>' );
+      $( '.jb-bars img' ).click( function() {
+        $( '.jb-header-table-cell-navigation' ).slideToggle();
+      } );
+    // Admin Menu
+      $( '.jb-admin-button' ).click( function() {
+        $( '.jb-admin-menu' ).slideToggle();
+      } );
+		// Discuss
+			//$( '.jb-discuss-information-name' ).not( ':has( img )' ).prepend( '<img src="./images/ic_person_white_48dp_2x.png" alt="">' );
+			//var jbUserLogo;
+			//$( '.jb-discuss-table' ).each( function() {
+			//	jbUserLogo = $( '.jb-discuss-information-name > img', this ).detach();
+			//	$( '.jb-discuss-information-logo', this ).append( jbUserLogo );
+			//} );
+		// 신고
+			$( 'img[src="//t1.daumcdn.net/tistory_admin/static/ico/ico_spam_report.png"]' ).parent().wrap( '<span class="jb-singo jb-singo-post"></span>');
+			$( '.jb-singo-post' ).parent().removeAttr( 'style' );
+			$( 'img[src="//t1.daumcdn.net/tistory_admin/static/ico/ico_spam_report.png"]' ).before( '<i class="fa fa-bell"></i> 신고' ).remove();
+			$( '.jb-discuss-information-date a' ).prepend( '<i class="fa fa-bell"></i>' ).wrap( '<span class="jb-singo jb-singo-reply"></span>' );
+    // Index
+      $( '.jb-cell-index' ).wrapAll( '<div class="jb-row jb-row-index"></div>' );
+		  $( '.jb-row-index .jb-cell-index:nth-child(1) .jb-index-table' ).addClass( 'jb-index-table-1' );
+			$( '.jb-row-index .jb-cell-index:nth-child(2) .jb-index-table' ).addClass( 'jb-index-table-2' );
+		  $( '.jb-row-index .jb-cell-index:nth-child(2n+1)' ).addClass( 'jb-cell-index-odd' );
+		  $( '.jb-row-index .jb-cell-index:nth-child(2n+2)' ).addClass( 'jb-cell-index-even' );
+      $( '.jb-row-index .jb-cell-index:nth-child(2n+2)' ).after( '<div class="jb-clearfix"></div>' );
+      $( '.jb-index-table-cell-thumbnail a' ).not( ':has( .jb-index-thumbnail )' ).append( '<div class="jb-index-thumbnail jb-index-thumbnail-no-image"><img src="./images/jb-blank-400x300.png" alt=""></div>' );
+			if ( $( 'body' ).attr( 'id' ) == 'tt-body-index' && jbCurrentUrl.indexOf( '/notice' ) > -1 ) {
+				$( '.jb-index-table-cell-thumbnail-notice' ).each( function() {
+					var jbNoticeUrl = $( 'a', this ).attr( 'href' );
+					var jbNoticeThis = this;
+					$.ajax( {
+						url: jbNoticeUrl,
+						success: function( jbNoticeHtml ) {
+							var jbNoticeImgSrcStart = jbNoticeHtml.indexOf( 'meta property="og:image" content="' )+34;
+							var jbNoticeImgSrcEnd = jbNoticeHtml.indexOf( '"', jbNoticeImgSrcStart );
+							var jbNoticeImgSrc = jbNoticeHtml.substring( jbNoticeImgSrcStart, jbNoticeImgSrcEnd );
+							if ( typeof jbNoticeImgSrc !== 'undefined' && jbNoticeImgSrc.indexOf( '/icon/' ) < 0 ) {
+								jbNoticeImgSrc = '//i1.daumcdn.net/thumb/C400x300/?fname=' + jbNoticeImgSrc;
+								$( 'img', jbNoticeThis ).attr( 'src', jbNoticeImgSrc );
+							}
+						}
+          } );
+				} );
+			}
+    // Pagination
+      //$( 'span.interword' ).replaceWith( '<li><a>&middot;&middot;&middot;</a></li>' );
+      $( '.jb-pagination span[class="selected"]' ).parent( 'a' ).parent( 'li' ).addClass( 'jb-active' );
+    // Calendar
+      $( '.jb-sidebar-content-calendar table td' ).has( 'a' ).addClass( 'jb-day-has-post' );
+    // Top Button
+      $( window ).scroll( function() {
+        if ( $( this ).scrollTop() > 200 ) { $( '.jb-top' ).fadeIn(); }
+        else { $( '.jb-top' ).fadeOut(); }
+      } );
+      $( '.jb-top' ).click( function() { $( 'html, body' ).animate( { scrollTop : 0 }, 600 ); return false; } );
+    // AdSense
+      $( '.jb-adsense-cb' ).appendTo( '#jb-adsense-cm' );
+			$( 'div#jb-adsense-cm-1' ).append( '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><' + '/script>' + jbAdSenseNativeContentCode + '<script>(adsbygoogle = window.adsbygoogle || []).push({});<' + '/script>' );
+			$( 'div#jb-adsense-cm-2' ).append( '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><' + '/script>' + jbAdSenseNativeContentCode + '<script>(adsbygoogle = window.adsbygoogle || []).push({});<' + '/script>' );
+			$( 'div#jb-adsense-cm-3' ).append( '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"><' + '/script>' + jbAdSenseNativeContentCode + '<script>(adsbygoogle = window.adsbygoogle || []).push({});<' + '/script>' );
+    // Youtube
+      $( '.jb-youtube-auto .jb-article iframe[src^="https://www.youtube.com/"]' ).wrap( '<div class="jb-youtube-16x9"></div>' );
+      $( '.jb-youtube-auto .jb-article .jb-youtube-16x9:has( .jb-youtube-16x9 )' ).css( 'padding-bottom', '0px' );
+		// Image Table
+			$( 'table:has(span.imageblock)' ).each( function() {
+				//alert( $( 'td', this ).length );
+				if ( $( 'td', this ).length == 2 ) {
+					$( this ).addClass( 'jb-image-table jb-image-table-2' );
+				}
+				if ( $( 'td', this ).length == 3 ) {
+					$( this ).addClass( 'jb-image-table jb-image-table-3' );
+				}
+			} );
+    // Slider
+      if ( jbShowSlider == 0 && $( 'body' ).attr( 'id' ) == 'tt-body-index' ) {
+        $( '.jb-column-content' ).prepend( '<div class="jb-cell jb-cell-slider"><div class="slider-wrapper theme-default"><div class="ribbon"></div><div id="jb-slider" class="nivoSlider"></div></div></div>' );
+        for ( var i = 0; i < jbSliderImage.length; i++) {
+          if ( jbSliderLink[ i ] == '' && jbSliderCaption[ i ] == '' ) {
+            var jbSliderCode = '<img src="' + jbSliderImage[ i ] + '">';
+          }
+          if ( jbSliderLink[ i ] !== '' && jbSliderCaption[ i ] == '' ) {
+            var jbSliderCode = '<a href="' + jbSliderLink[ i ] + '"><img src="' + jbSliderImage[ i ] + '"></a>';
+          }
+          if ( jbSliderLink[ i ] == '' && jbSliderCaption[ i ] !== '' ) {
+            var jbSliderCode = '<img src="' + jbSliderImage[ i ] + '" title="' + jbSliderCaption[ i ] + '">';
+          }
+          if ( jbSliderLink[ i ] !== '' && jbSliderCaption[ i ] !== '' ) {
+            var jbSliderCode = '<a href="' + jbSliderLink[ i ] + '"><img src="' + jbSliderImage[ i ] + '" title="' + jbSliderCaption[ i ] + '"></a>';
+          }
+          $( '#jb-slider' ).append( jbSliderCode );
+        }
+        $( '#jb-slider' ).nivoSlider( {
+          effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+          slices: 15, // For slice animations
+          boxCols: 8, // For box animations
+          boxRows: 4, // For box animations
+          animSpeed: 500, // Slide transition speed
+          pauseTime: 5000, // How long each slide will show
+          startSlide: 0, // Set starting Slide (0 index)
+          directionNav: true, // Next & Prev navigation
+          controlNav: true, // 1,2,3... navigation
+          controlNavThumbs: false, // Use thumbnails for Control Nav
+          pauseOnHover: true, // Stop animation while hovering
+          manualAdvance: false, // Force manual transitions
+          prevText: 'Prev', // Prev directionNav text
+          nextText: 'Next', // Next directionNav text
+          randomStart: false, // Start on a random slide
+          beforeChange: function(){}, // Triggers before a slide transition
+          afterChange: function(){}, // Triggers after a slide transition
+          slideshowEnd: function(){}, // Triggers after all slides have been shown
+          lastSlide: function(){}, // Triggers when last slide is shown
+          afterLoad: function(){} // Triggers when slider has loaded
+        } );
+      }
+      $( '#jb-slider' ).nivoSlider();
+    // Show
+      $( '.jb-background-header' ).css( { visibility: 'visible' } );
+      $( '.jb-background-main' ).css( { visibility: 'visible' } );
+      $( '.jb-background-footer' ).css( { visibility: 'visible' } );
+      $( '.jb-background-foot' ).css( { visibility: 'visible' } );
+  } );
+</script>
+
+  </s_t3></body>
+</html>
+<!--
+	Noto Sans KR				SIL Open Font License
+	Noto Serif					Apache License
+	LexiSaebomR					http://kldp.net/linuxlexifont2/
+-->
